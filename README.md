@@ -18,6 +18,7 @@ isInstall() {
       console.log("re:", result);
     }, error => console.log("err:", error));
   }
+  
   startRTVideoName() {
     cordova.plugins.kairuiPlugin.startRTVideoName(this.tel, this.password, this.callNum, this.callName, result => {
       console.log("re:", result);
